@@ -2463,7 +2463,7 @@ fieldset:disabled a.btn {
   border-color: #18A4E0;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(60, 131, 198, 0.5);
 }
 
 .btn-secondary {
@@ -10241,4 +10241,12 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.center-mrg{
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  
 }
